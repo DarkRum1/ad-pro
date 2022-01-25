@@ -5,13 +5,15 @@
   "scripts": {
     "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
-    "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+    "lint": "SET NODE_OPTIONS=np--openssl-legacy-provider && vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^9.6.4",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
